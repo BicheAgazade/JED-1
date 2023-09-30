@@ -267,29 +267,42 @@
         width: 200px;
     }
     
-    .popular-div {
-        margin-top: 80px;
-    }
-    
-    .popular-div-3item-1 {
-        background-color: #343739;
-        border-radius: 10px;
-        flex-shrink: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 15px;
-    }
-    
-    .waterfalls-img {
+    .img-popular-div {
         width: 100%;
     }
     
-    .info-flex-div {
+    .main-popular-div {
+        margin-top: 100px;
         justify-content: space-between;
     }
     
-    .info-div h2 {
+    .popular-3item-div {
+        width: 73%;
+    }
+    
+    .main-waterfalls-taj-div {
+        justify-content: space-between;
+    }
+    
+    .waterfalls-div {
+        width: 69%;
+        flex-shrink: 0;
+        background-color: #343739;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    
+    .content-div-waterfalls {
+        margin-top: 22px;
+        justify-content: space-between;
+    }
+    
+    .info-div-waterfalls {}
+    
+    .info-div-waterfalls h2,
+    .info-div-taj h2,
+    .info-div-china h2,
+    .info-div-paris h2 {
         color: #F3F3F3;
         font-size: 23px;
         font-style: normal;
@@ -298,7 +311,11 @@
         letter-spacing: 0.23px;
     }
     
-    .info-div img {
+    .img-location-div {
+        padding-top: 22px;
+    }
+    
+    .img-location-div img {
         width: 24px;
         height: 24px;
         justify-content: center;
@@ -306,13 +323,14 @@
         flex-shrink: 0;
     }
     
-    .info-div span {
+    .img-location-div p {
         color: #F3F3F3;
         font-size: 19px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         letter-spacing: 0.19px;
+        margin-left: 3px;
     }
     
     .heart-div {
@@ -336,14 +354,51 @@
         letter-spacing: 0.12px;
     }
     
-    .popular-div-3item-2 {
+    .taj-div {
+        width: 29%;
         flex-shrink: 0;
         background-color: #343739;
         border-radius: 10px;
         padding: 15px;
     }
     
-    .popular-div-2item {
+    .content-div-taj {
+        margin-top: 25px;
         justify-content: space-between;
-        gap: 20px;
+    }
+    
+    .main-china-div {
+        flex-shrink: 0;
+        background-color: #343739de;
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    
+    .content-div-china {
+        width: 100%;
+    }
+    
+    .info-div-china {
+        margin: 65px 15px;
+    }
+    
+    .heart-div-china {
+        text-align: right;
+    }
+    
+    .popular-1item-div {
+        width: 25%;
+        flex-shrink: 0;
+        background-color: #343739de;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    
+    .content-div-paris {
+        margin-top: 20px;
+    }
+    
+    .heart-paris-div {
+        text-align: right;
     }
