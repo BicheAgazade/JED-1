@@ -1014,8 +1014,6 @@
             top: calc(100% - 118px);
         }
         
-        .main-div-8 {}
-        
         .green-div {
             background: #00706D;
             height: 260px;
@@ -1031,12 +1029,17 @@
         
         .balck-div-8 {
             background: #212121;
+        }
+        
+        .inner-black-div-8 {
             justify-content: flex-end;
+            position: relative;
         }
         
         .info-div-8 {
-            width: 50%;
+            width: 45%;
             padding-top: 20px;
+            padding-bottom: 70px;
         }
         
         .info-div-8 p,
@@ -1045,6 +1048,7 @@
             font-size: 18px;
             font-weight: 400;
             letter-spacing: 0.18px;
+            padding: 10px 0;
         }
         
         .info-div-8 h3 {
@@ -1052,6 +1056,7 @@
             font-size: 22px;
             font-weight: 400;
             letter-spacing: 0.22px;
+            padding-bottom: 50px;
         }
         
         .info-div-8 span {
@@ -1059,7 +1064,7 @@
         }
         
         .icon-div-8 {
-            width: 24%;
+            width: 30%;
             justify-content: space-between;
         }
         
@@ -1067,4 +1072,64 @@
             width: 24px;
             height: 24px;
             justify-content: center;
+        }
+        
+        .form-black {
+            border-radius: 9px 9px 0px 0px;
+            background: rgba(0, 0, 0, 0.76);
+            backdrop-filter: blur(40.5px);
+            padding: 20px 30px;
+            position: absolute;
+            bottom: 0;
+            left: 15px;
+            width: 40%;
+        }
+        
+        .form-black h2 {
+            color: #FFF;
+            font-size: 22px;
+            font-weight: 400;
+            letter-spacing: 0.22px;
+        }
+        
+        .form-black input {
+            border: 0;
+            background-color: transparent;
+            border-bottom: 1px solid white;
+            color: white;
+        }
+        
+        .form-black textarea {
+            padding: 16px;
+            background-color: transparent;
+            width: 100%;
+            margin-top: 35px;
+            border-radius: 10px;
+            color: white;
+        }
+        
+        .fullname-div {
+            justify-content: space-between;
+            margin-top: 25px;
+        }
+        
+        .gmail-input input {
+            width: 100%;
+            margin-top: 70px;
+        }
+        
+        .send-form-btn {
+            width: 50%;
+            margin: 40px auto 0;
+        }
+        
+        .send-form-btn button {
+            color: #FFF;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 0.15px;
+            padding: 10px 100px;
+            border-radius: 5px;
+            background: #006360;
+            border: 0;
         }
