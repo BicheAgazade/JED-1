@@ -232,7 +232,7 @@
             justify-content: center;
             align-items: center;
             position: absolute;
-            right: 68px;
+            right: 55px;
             top: 2px;
             cursor: pointer;
         }
@@ -1132,4 +1132,91 @@
             border-radius: 5px;
             background: #006360;
             border: 0;
+        }
+        
+        .main-div-9 {
+            background-image: url(https://travel.rufataliyev.xyz/assets/img/desktop/footer-bg.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        
+        .img-div-9 {
+            width: 15%;
+            margin: 0px auto;
+            padding-top: 35px;
+        }
+        
+        .subscribe-div {
+            width: 50%;
+            margin: 60px auto;
+        }
+        
+        .subscribe-div h2 {
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+        
+        .input-div-9 {
+            width: 70%;
+            margin: 0px auto;
+        }
+        
+        .input-div-9 input {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 70%;
+            border: 0;
+        }
+        
+        .input-div-9 input::placeholder {
+            color: var(--cold-grey-30, #B1B5BB);
+            font-size: 16px;
+            font-weight: 400;
+        }
+        
+        .input-div-9 button {
+            color: #F3F3F3;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            border-radius: 10px;
+            background: #009490;
+            border: 0;
+            padding: 10px;
+            width: 20%;
+            margin-left: 15px;
+        }
+        
+        hr {
+            background: #FFF;
+            height: 1px;
+            width: 95%;
+            margin: 20px auto;
+        }
+        
+        .footer-div {
+            width: 95%;
+            margin: 0px auto;
+            justify-content: space-between;
+        }
+        
+        .footer-div h3 {
+            color: var(--cold-grey-white, #FFF);
+            font-size: 12px;
+            font-weight: 300;
+            width: 20%;
+        }
+        
+        .inner-footer-div {
+            width: 50%;
+            justify-content: space-around;
+        }
+        
+        .inner-footer-div p {
+            color: var(--cold-grey-white, #FFF);
+            font-size: 14px;
+            font-weight: 400;
         }
